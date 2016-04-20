@@ -13,6 +13,8 @@
 		C66757211CC7503C00F162A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C667571F1CC7503C00F162A9 /* Main.storyboard */; };
 		C66757231CC7503C00F162A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66757221CC7503C00F162A9 /* Assets.xcassets */; };
 		C66757261CC7503C00F162A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66757241CC7503C00F162A9 /* LaunchScreen.storyboard */; };
+		C66757351CC75E8100F162A9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66757331CC75E8100F162A9 /* TestViewController.m */; };
+		C66757361CC75E8100F162A9 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C66757341CC75E8100F162A9 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		C66757221CC7503C00F162A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C66757251CC7503C00F162A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C66757271CC7503C00F162A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66757321CC75E8100F162A9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C66757331CC75E8100F162A9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C66757341CC75E8100F162A9 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				C667571A1CC7503C00F162A9 /* AppDelegate.m */,
 				C667571C1CC7503C00F162A9 /* ViewController.h */,
 				C667571D1CC7503C00F162A9 /* ViewController.m */,
+				C66757321CC75E8100F162A9 /* TestViewController.h */,
+				C66757331CC75E8100F162A9 /* TestViewController.m */,
+				C66757341CC75E8100F162A9 /* TestViewController.xib */,
 				C667571F1CC7503C00F162A9 /* Main.storyboard */,
 				C66757221CC7503C00F162A9 /* Assets.xcassets */,
 				C66757241CC7503C00F162A9 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			files = (
 				C66757261CC7503C00F162A9 /* LaunchScreen.storyboard in Resources */,
 				C66757231CC7503C00F162A9 /* Assets.xcassets in Resources */,
+				C66757361CC75E8100F162A9 /* TestViewController.xib in Resources */,
 				C66757211CC7503C00F162A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				C667571E1CC7503C00F162A9 /* ViewController.m in Sources */,
 				C667571B1CC7503C00F162A9 /* AppDelegate.m in Sources */,
+				C66757351CC75E8100F162A9 /* TestViewController.m in Sources */,
 				C66757181CC7503C00F162A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
