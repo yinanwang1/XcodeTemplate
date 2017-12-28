@@ -1,5 +1,5 @@
 # XcodeTemplate
-Xcode7 创建自定义模板
+Xcode7，8，9 创建自定义模板. 这个模板是在新建.m文件时，Subclass of:输入BaseViewController来创建的。 不会对之前已经创建的文件进行任何修改。
 
 之前编写iOS代码编程规范规定了UIViewController.m的文件布局，不同变量和方法的先后顺序：，但是在实际使用上，新手根本不按要求编写代码，所以想到直接编写一个模板吧。^_^
 编写模板简单的方法就是直接拷贝一个系统的模板，然后进行自定义的修改。我已经修改好了一个https://github.com/yinanwang1/XcodeTemplate.git ,其中有一个BaseVC.xctemplate就是自定义模板的所有文件。
@@ -7,7 +7,7 @@ Xcode7 创建自定义模板
 开始唠叨唠叨一些细节：
 
 1 模板方案路径
-系统模板的路径（Xcode7）/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates在这个目录下有
+系统模板的路径（Xcode7，8，9）/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates在这个目录下有
 
 
 模板
